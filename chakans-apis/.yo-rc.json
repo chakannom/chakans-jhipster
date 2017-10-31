@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.chakans.apis",
+      "nativeLanguage": "ko"
+    },
+    "jhipsterVersion": "4.10.2",
+    "baseName": "Apis",
+    "packageName": "com.chakans.apis",
+    "packageFolder": "com/chakans/apis",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "UAA",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "e0ada24ead39331cd6804d30f9a61f1163c37b37",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-elasticsearch-reindexer",
+        "version": "1.0.2"
+      }
+    ],
+    "nativeLanguage": "ko",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "clientPackageManager": "yarn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

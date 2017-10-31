@@ -1,0 +1,17 @@
+{
+  "name": "apis",
+  "version": "0.0.0",
+  "description": "Description for Apis",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster-elasticsearch-reindexer": "1.0.2",
+    "generator-jhipster": "4.10.2"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  }
+}
